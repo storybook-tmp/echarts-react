@@ -1,5 +1,6 @@
 node_modules
 .DS_Store
+.env.local
 .history/
 
 .idea/
@@ -9,3 +10,5 @@ coverage/
 dist/
 storybook-static/
 fanciers-echarts-react-*.tgz
+
+*storybook.log

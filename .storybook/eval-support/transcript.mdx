@@ -1,10 +1,7 @@
 {/* Transcript renderer copied directly from ~/code/github/mcp/eval/templates/result-docs/transcript.tsx and transcript.types.ts */}
-import { Meta } from '@storybook/addon-docs/blocks';
-import { transcriptProps } from './eval-data.ts';
+import data from '../eval-results/data.json';
 import { Transcript } from './transcript';
 
-<Meta title="Eval Support/Eval Transcript" />
+# Transcript
 
-# Eval Transcript
-
-<Transcript {...transcriptProps} />
+<Transcript {...data.docs.transcript} />

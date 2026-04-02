@@ -1,7 +1,4 @@
 import type { Preview } from '@storybook/react-vite';
-import { CanvasRenderer, echarts } from '@fanciers/echarts-react';
-
-echarts.use(CanvasRenderer);
 
 const preview: Preview = {
   parameters: {

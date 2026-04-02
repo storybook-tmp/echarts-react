@@ -448,7 +448,7 @@ const Turn = ({
 };
 
 export const Transcript = (props: TranscriptProps) => {
-	const { evalId, createdAt, prompt, promptTokenCount, messages } = props;
+	const { prompt, promptTokenCount, messages } = props;
 
 	useEffect(() => {
 		const script = document.createElement('script');
@@ -481,20 +481,6 @@ export const Transcript = (props: TranscriptProps) => {
 	const totalMessageTokens = messageTokens;
 
 	const metadataCards = [];
-
-	if (evalId) {
-		metadataCards.push({
-			title: 'Eval ID',
-			value: evalId,
-		});
-	}
-
-	if (createdAt) {
-		metadataCards.push({
-			title: 'Created At',
-			value: formatTimestamp(createdAt),
-		});
-	}
 
 	if (systemTurn) {
 		metadataCards.push({
@@ -596,36 +582,22 @@ export const Transcript = (props: TranscriptProps) => {
 					fontWeight: 600,
 					marginBottom: '1rem',
 				}}
-				>
-					Turns
-				</h2>
+			>
+				Turns
+			</h2>
 
-				{prompt && (
-					<details
-						style={{
-							marginBottom: '1.5rem',
-							border: '1px solid #e5e7eb',
-							borderRadius: '8px',
-							padding: '1rem',
-							backgroundColor: '#f9fafb',
-						}}
-					>
-						<summary
-							style={{
-								cursor: 'pointer',
-								fontWeight: 600,
-							}}
-						>
-							User Prompt
-							{promptTokenCount > 0 ? ` (${promptTokenCount.toLocaleString()} tokens)` : ''}
-						</summary>
-						<div style={{ marginTop: '1rem' }}>
-							<ContentSection label="Prompt">
-								<CodeBlock content={prompt} language="markdown" />
-							</ContentSection>
-						</div>
-					</details>
-				)}
+			{prompt && (
+				<Turn
+					type="prompt"
+					title="User Prompt"
+					tokenCount={`${promptTokenCount.toLocaleString()} tokens`}
+					percentage={(promptTokenCount / totalMessageTokens) * 100}
+				>
+					<ContentSection label="Prompt">
+						<CodeBlock content={prompt} language="markdown" />
+					</ContentSection>
+				</Turn>
+			)}
 
 			{groupedTurns.map((group, index) => {
 				const isTodoWrite =
@@ -727,15 +699,6 @@ function groupToolCallsWithResults(turns: TranscriptMessage[]): Array<{
 	}
 
 	return grouped;
-}
-
-function formatTimestamp(value: string) {
-	const date = new Date(value);
-	if (Number.isNaN(date.getTime())) {
-		return value;
-	}
-
-	return `${date.toLocaleString()} (${value})`;
 }
 
 const ToolCallGroup = ({

@@ -74,6 +74,8 @@ export interface ResultMessage {
 export type TranscriptMessage = AssistantMessage | UserMessage | SystemMessage | ResultMessage;
 
 export interface TranscriptProps {
+	evalId?: string;
+	createdAt?: string;
 	prompt: string;
 	promptTokenCount: number;
 	promptCost: number;

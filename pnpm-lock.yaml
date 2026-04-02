@@ -27,6 +27,9 @@ importers:
       '@storybook/addon-vitest':
         specifier: 0.0.0-pr-34421-sha-0f73e3a9
         version: 0.0.0-pr-34421-sha-0f73e3a9(@vitest/browser-playwright@4.0.18)(@vitest/browser@4.0.18(vite@8.0.0-beta.15(@types/node@25.3.0)(esbuild@0.27.3))(vitest@4.0.18))(@vitest/runner@4.0.18)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@0.0.0-pr-34421-sha-0f73e3a9(@testing-library/dom@10.4.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(vitest@4.0.18)
+      '@storybook/react':
+        specifier: 0.0.0-pr-34421-sha-0f73e3a9
+        version: 0.0.0-pr-34421-sha-0f73e3a9(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@0.0.0-pr-34421-sha-0f73e3a9(@testing-library/dom@10.4.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@5.9.3)
       '@storybook/react-vite':
         specifier: 0.0.0-pr-34421-sha-0f73e3a9
         version: 0.0.0-pr-34421-sha-0f73e3a9(esbuild@0.27.3)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(storybook@0.0.0-pr-34421-sha-0f73e3a9(@testing-library/dom@10.4.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@5.9.3)(vite@8.0.0-beta.15(@types/node@25.3.0)(esbuild@0.27.3))

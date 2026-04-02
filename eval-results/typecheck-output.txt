@@ -1,0 +1,31 @@
+src/AxisBreak.stories.tsx(1,37): error TS2307: Cannot find module '@storybook/react' or its corresponding type declarations.
+src/BarChart.stories.tsx(1,37): error TS2307: Cannot find module '@storybook/react' or its corresponding type declarations.
+src/Brush.stories.tsx(1,37): error TS2307: Cannot find module '@storybook/react' or its corresponding type declarations.
+src/DataZoom.stories.tsx(1,37): error TS2307: Cannot find module '@storybook/react' or its corresponding type declarations.
+src/Legend.stories.tsx(1,37): error TS2307: Cannot find module '@storybook/react' or its corresponding type declarations.
+src/LineChart.stories.tsx(1,37): error TS2307: Cannot find module '@storybook/react' or its corresponding type declarations.
+src/PieChart.stories.tsx(1,37): error TS2307: Cannot find module '@storybook/react' or its corresponding type declarations.
+src/stories/Button.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/stories/Button.tsx(3,8): error TS2307: Cannot find module './button.css' or its corresponding type declarations.
+src/stories/Header.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/stories/Header.tsx(4,8): error TS2307: Cannot find module './header.css' or its corresponding type declarations.
+src/stories/Header.tsx(45,14): error TS2375: Type '{ size: "small"; onClick: (() => void) | undefined; label: string; }' is not assignable to type 'ButtonProps' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'onClick' are incompatible.
+    Type '(() => void) | undefined' is not assignable to type '() => void'.
+      Type 'undefined' is not assignable to type '() => void'.
+src/stories/Header.tsx(49,14): error TS2375: Type '{ size: "small"; onClick: (() => void) | undefined; label: string; }' is not assignable to type 'ButtonProps' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'onClick' are incompatible.
+    Type '(() => void) | undefined' is not assignable to type '() => void'.
+      Type 'undefined' is not assignable to type '() => void'.
+src/stories/Header.tsx(50,14): error TS2375: Type '{ primary: true; size: "small"; onClick: (() => void) | undefined; label: string; }' is not assignable to type 'ButtonProps' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'onClick' are incompatible.
+    Type '(() => void) | undefined' is not assignable to type '() => void'.
+      Type 'undefined' is not assignable to type '() => void'.
+src/stories/Page.tsx(4,8): error TS2307: Cannot find module './page.css' or its corresponding type declarations.
+src/stories/Page.tsx(15,8): error TS2375: Type '{ user: User | undefined; onLogin: () => void; onLogout: () => void; onCreateAccount: () => void; }' is not assignable to type 'HeaderProps' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'user' are incompatible.
+    Type 'User | undefined' is not assignable to type 'User'.
+      Type 'undefined' is not assignable to type 'User'.
+src/Title.stories.tsx(1,37): error TS2307: Cannot find module '@storybook/react' or its corresponding type declarations.
+src/Tooltip.stories.tsx(1,37): error TS2307: Cannot find module '@storybook/react' or its corresponding type declarations.
+

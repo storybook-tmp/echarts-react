@@ -1,0 +1,76 @@
+RUN  v4.0.18 /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-02T12-44-32Z-4701bfc6/project
+
+7:48:58 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+Port 63315 is in use, trying another one...
+stdout | src/LineChartAdvanced.stories.tsx > Multi Series With Legend
+[ECharts] Specified `grid.containLabel` but no `use(LegacyGridContainLabel)`;use `grid.outerBounds` instead.
+ ✓ |storybook (chromium)| src/BarChartWithDataZoom.stories.tsx (2 tests) 1546ms
+   ✓ Default  1073ms
+   ✓ Inside  472ms
+ ✓ |storybook (chromium)| src/GraphChart.stories.tsx (2 tests) 1547ms
+   ✓ Network Diagram  1074ms
+   ✓ Circular Layout  472ms
+ ✓ |storybook (chromium)| src/LineChart.stories.tsx (2 tests) 1547ms
+   ✓ Basic  1054ms
+   ✓ Multi Series  493ms
+ ✓ |storybook (chromium)| src/PieChart.stories.tsx (2 tests) 1675ms
+   ✓ Basic  1235ms
+   ✓ Donut  438ms
+ ✓ |storybook (chromium)| src/Title.stories.tsx (2 tests) 1673ms
+   ✓ Default  1239ms
+   ✓ With Subtitle  433ms
+ ✓ |storybook (chromium)| src/LineChartAdvanced.stories.tsx (2 tests) 1663ms
+   ✓ Multi Series With Legend  1231ms
+   ✓ With Data Zoom  430ms
+ ✓ |storybook (chromium)| src/Legend.stories.tsx (2 tests) 1677ms
+   ✓ Default  1270ms
+   ✓ Right  406ms
+ ✓ |storybook (chromium)| src/BarChart.stories.tsx (2 tests) 1680ms
+   ✓ Basic  1304ms
+   ✓ Multi Series  375ms
+ ✓ |storybook (chromium)| src/Tooltip.stories.tsx (2 tests) 1694ms
+   ✓ Default  1246ms
+   ✓ Trigger  447ms
+
+ Test Files  9 passed (9)
+      Tests  18 passed (18)
+   Start at  19:48:58
+   Duration  7.71s (transform 0ms, setup 18.73s, import 5.71s, tests 14.70s, environment 0ms)
+
+
+stderr | src/Tooltip.stories.tsx > Default
+[ECharts] Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.
+stderr | src/Legend.stories.tsx > Default
+[ECharts] Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.
+stderr | src/PieChart.stories.tsx > Basic
+[ECharts] Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.
+stderr | src/LineChart.stories.tsx > Basic
+[ECharts] Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.
+stderr | src/GraphChart.stories.tsx > Network Diagram
+[ECharts] Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.
+stderr | src/LineChartAdvanced.stories.tsx > Multi Series With Legend
+[ECharts] Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.
+stderr | src/BarChartWithDataZoom.stories.tsx > Default
+[ECharts] Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.
+stderr | src/Title.stories.tsx > Default
+[ECharts] Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.
+stderr | src/BarChart.stories.tsx > Basic
+[ECharts] Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.
+stderr | src/LineChart.stories.tsx > Multi Series
+[ECharts] Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.
+stderr | src/BarChartWithDataZoom.stories.tsx > Inside
+[ECharts] Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.
+stderr | src/GraphChart.stories.tsx > Circular Layout
+[ECharts] Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.
+stderr | src/PieChart.stories.tsx > Donut
+[ECharts] Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.
+stderr | src/LineChartAdvanced.stories.tsx > With Data Zoom
+[ECharts] Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.
+stderr | src/Tooltip.stories.tsx > Trigger
+[ECharts] Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.
+stderr | src/Title.stories.tsx > With Subtitle
+[ECharts] Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.
+stderr | src/Legend.stories.tsx > Right
+[ECharts] Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.
+stderr | src/BarChart.stories.tsx > Multi Series
+[ECharts] Can't get DOM width or height. Please check dom.clientWidth and dom.clientHeight. They should not be 0.For example, you may need to call this in the callback of window.onload.

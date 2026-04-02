@@ -1,0 +1,43 @@
+RUN  v4.0.18 /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-02T15-40-10Z-6c65663a/project
+
+10:53:36 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+stdout | src/HeatmapChart.stories.tsx > Activity Heatmap
+[ECharts] Specified `grid.containLabel` but no `use(LegacyGridContainLabel)`;use `grid.outerBounds` instead.
+ ✓ |storybook (chromium)| src/LineChartInteractive.stories.tsx (2 tests) 1306ms
+   ✓ With Tooltip  921ms
+   ✓ With Data Zoom  383ms
+ ✓ |storybook (chromium)| src/BarChart.stories.ts (2 tests) 1341ms
+   ✓ Basic  927ms
+   ✓ Multi Series  413ms
+ ✓ |storybook (chromium)| src/BarChartWithLegend.stories.tsx (2 tests) 1341ms
+   ✓ With Title And Legend  927ms
+   ✓ Stacked  413ms
+ ✓ |storybook (chromium)| src/ScatterChart.stories.tsx (2 tests) 1345ms
+   ✓ Basic  928ms
+   ✓ Multiple Groups  415ms
+ ✓ |storybook (chromium)| src/HeatmapChart.stories.tsx (2 tests) 1353ms
+   ✓ Activity Heatmap  942ms
+   ✓ Minimal Heatmap  410ms
+ ✓ |storybook (chromium)| src/LineChart.stories.ts (2 tests) 1355ms
+   ✓ Basic  934ms
+   ✓ Smooth  419ms
+ ✓ |storybook (chromium)| src/PieChart.stories.ts (2 tests) 1362ms
+   ✓ Basic  929ms
+   ✓ Donut  432ms
+ ✓ |storybook (chromium)| src/GraphChart.stories.tsx (2 tests) 1355ms
+   ✓ Force Layout  923ms
+   ✓ Circular Layout  431ms
+ ✓ |storybook (chromium)| src/EffectScatterChart.stories.tsx (2 tests) 1410ms
+   ✓ Ripple Effect  1067ms
+   ✓ Multiple Series With Effects  342ms
+
+ Test Files  9 passed (9)
+      Tests  18 passed (18)
+   Start at  22:53:36
+   Duration  5.29s (transform 0ms, setup 11.11s, import 2.31s, tests 12.17s, environment 0ms)
+
+
+stderr | src/BarChart.stories.ts > Multi Series
+[ECharts] Component legend is used but not imported.
+import { LegendComponent } from 'echarts/components';
+echarts.use([LegendComponent]);

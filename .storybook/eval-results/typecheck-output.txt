@@ -1,0 +1,31 @@
+src/BarChart.stories.ts(14,3): error TS2322: Type '{ style: { width: number; height: number; }; xAxis: { data: string[]; }[]; yAxis: {}[]; series: { type: string; data: number[]; }[]; }' is not assignable to type 'never'.
+src/BarChart.stories.ts(23,3): error TS2322: Type '{ style: { width: number; height: number; }; legend: {}; xAxis: { data: string[]; }[]; yAxis: {}[]; series: { type: string; name: string; data: number[]; }[]; }' is not assignable to type 'never'.
+src/BarChartWithLegend.stories.tsx(13,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/BarChartWithLegend.stories.tsx(31,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/EffectScatterChart.stories.tsx(13,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/EffectScatterChart.stories.tsx(36,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/GraphChart.stories.tsx(13,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/GraphChart.stories.tsx(48,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/HeatmapChart.stories.tsx(27,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/HeatmapChart.stories.tsx(50,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/LineChart.stories.ts(14,3): error TS2322: Type '{ style: { width: number; height: number; }; xAxis: { data: string[]; }[]; yAxis: {}[]; series: { type: string; data: number[]; }[]; }' is not assignable to type 'never'.
+src/LineChart.stories.ts(23,3): error TS2322: Type '{ style: { width: number; height: number; }; xAxis: { data: string[]; }[]; yAxis: {}[]; series: { type: string; data: number[]; smooth: true; }[]; }' is not assignable to type 'never'.
+src/LineChartInteractive.stories.tsx(13,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/LineChartInteractive.stories.tsx(30,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/PieChart.stories.ts(14,3): error TS2322: Type '{ style: { width: number; height: number; }; series: { type: string; data: { value: number; name: string; }[]; }[]; }' is not assignable to type 'never'.
+src/PieChart.stories.ts(31,3): error TS2322: Type '{ style: { width: number; height: number; }; series: { type: string; radius: string[]; data: { value: number; name: string; }[]; }[]; }' is not assignable to type 'never'.
+src/ScatterChart.stories.tsx(13,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/ScatterChart.stories.tsx(34,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+

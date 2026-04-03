@@ -1,0 +1,27 @@
+RUN  v4.0.18 /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-02T15-25-15Z-4f678c3b/project
+
+10:31:22 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+Port 63315 is in use, trying another one...
+Port 63316 is in use, trying another one...
+Port 63317 is in use, trying another one...
+ ✓ |storybook (chromium)| src/BarChartWithLegend.stories.tsx (2 tests) 1134ms
+   ✓ With Legend And Title  798ms
+   ✓ Complex Multi Series  334ms
+ ✓ |storybook (chromium)| src/GraphChart.stories.tsx (2 tests) 1198ms
+   ✓ Simple Network  934ms
+ ✓ |storybook (chromium)| src/ScatterChart.stories.tsx (2 tests) 1192ms
+   ✓ Basic Scatter  929ms
+ ✓ |storybook (chromium)| src/BarChart.stories.ts (2 tests) 1289ms
+   ✓ Default  942ms
+   ✓ Multiple Series Chart  346ms
+ ✓ |storybook (chromium)| src/PieChart.stories.ts (2 tests) 1409ms
+   ✓ Default  936ms
+   ✓ Donut  471ms
+ ✓ |storybook (chromium)| src/LineChart.stories.ts (2 tests) 1417ms
+   ✓ Default  952ms
+   ✓ Multiple Lines  464ms
+
+ Test Files  6 passed (6)
+      Tests  12 passed (12)
+   Start at  22:31:22
+   Duration  8.29s (transform 0ms, setup 7.60s, import 1.32s, tests 7.64s, environment 0ms)

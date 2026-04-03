@@ -1,0 +1,22 @@
+src/BarChart.stories.ts(17,3): error TS2322: Type '{ style: { width: string; height: string; }; xAxis: { type: string; data: string[]; }; yAxis: { type: string; }; series: { data: number[]; type: string; }[]; }' is not assignable to type 'never'.
+src/BarChart.stories.ts(26,3): error TS2322: Type '{ style: { width: string; height: string; }; xAxis: { type: string; data: string[]; }; yAxis: { type: string; }; series: { data: number[]; type: string; name: string; }[]; }' is not assignable to type 'never'.
+src/BarChartWithLegend.stories.tsx(2,1): error TS6133: 'React' is declared but its value is never read.
+src/BarChartWithLegend.stories.tsx(20,19): error TS2698: Spread types may only be created from object types.
+src/BarChartWithLegend.stories.tsx(25,3): error TS2322: Type '{ style: { width: string; height: string; }; xAxis: { type: string; data: string[]; }; yAxis: { type: string; }; series: { data: number[]; type: string; name: string; }[]; }' is not assignable to type 'never'.
+src/BarChartWithLegend.stories.tsx(38,19): error TS2698: Spread types may only be created from object types.
+src/BarChartWithLegend.stories.tsx(43,3): error TS2322: Type '{ style: { width: string; height: string; }; xAxis: { type: string; data: string[]; }; yAxis: { type: string; }; series: { data: number[]; type: string; name: string; }[]; }' is not assignable to type 'never'.
+src/GraphChart.stories.tsx(2,1): error TS6133: 'React' is declared but its value is never read.
+src/GraphChart.stories.tsx(20,21): error TS2698: Spread types may only be created from object types.
+src/GraphChart.stories.tsx(25,3): error TS2322: Type '{ style: { width: string; height: string; }; series: { type: string; layout: string; data: { name: string; }[]; links: { source: number; target: number; }[]; roam: true; label: { show: true; }; emphasis: { focus: string; }; }[]; }' is not assignable to type 'never'.
+src/GraphChart.stories.tsx(57,21): error TS2698: Spread types may only be created from object types.
+src/GraphChart.stories.tsx(62,3): error TS2322: Type '{ style: { width: string; height: string; }; series: { type: string; layout: string; data: { name: string; category: number; }[]; links: { source: number; target: number; }[]; categories: { name: string; }[]; roam: true; label: { ...; }; emphasis: { ...; }; }[]; }' is not assignable to type 'never'.
+src/LineChart.stories.ts(17,3): error TS2322: Type '{ style: { width: string; height: string; }; xAxis: { type: string; data: string[]; }; yAxis: { type: string; }; series: { data: number[]; type: string; }[]; }' is not assignable to type 'never'.
+src/LineChart.stories.ts(26,3): error TS2322: Type '{ style: { width: string; height: string; }; xAxis: { type: string; data: string[]; }; yAxis: { type: string; }; series: { data: number[]; type: string; name: string; }[]; }' is not assignable to type 'never'.
+src/PieChart.stories.ts(17,3): error TS2322: Type '{ style: { width: string; height: string; }; series: { data: { value: number; name: string; }[]; type: string; }[]; }' is not assignable to type 'never'.
+src/PieChart.stories.ts(35,3): error TS2322: Type '{ style: { width: string; height: string; }; series: { data: { value: number; name: string; }[]; type: string; radius: string[]; }[]; }' is not assignable to type 'never'.
+src/ScatterChart.stories.tsx(2,1): error TS6133: 'React' is declared but its value is never read.
+src/ScatterChart.stories.tsx(20,23): error TS2698: Spread types may only be created from object types.
+src/ScatterChart.stories.tsx(25,3): error TS2322: Type '{ style: { width: string; height: string; }; xAxis: { type: string; scale: true; }; yAxis: { type: string; scale: true; }; series: { data: number[][]; type: string; name: string; }[]; }' is not assignable to type 'never'.
+src/ScatterChart.stories.tsx(48,23): error TS2698: Spread types may only be created from object types.
+src/ScatterChart.stories.tsx(54,3): error TS2322: Type '{ style: { width: string; height: string; }; xAxis: { type: string; }; yAxis: { type: string; }; series: { data: number[][]; type: string; name: string; }[]; }' is not assignable to type 'never'.
+

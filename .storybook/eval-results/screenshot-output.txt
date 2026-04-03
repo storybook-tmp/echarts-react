@@ -1,0 +1,47 @@
+[1m[46m RUN [49m[22m [36mv4.0.18 [39m[90m/Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T11-28-58Z-b27902db/project[39m
+
+Port 63315 is in use, trying another one...
+Port 63316 is in use, trying another one...
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/HeatmapChart.stories.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 2514[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 1263[2mms[22m[39m
+   [33m[2m✓[22m[39m With Visual Map [33m 364[2mms[22m[39m
+   [33m[2m✓[22m[39m Styled [33m 886[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/PieChart.stories.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 2533[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 1065[2mms[22m[39m
+   [33m[2m✓[22m[39m Donut [33m 564[2mms[22m[39m
+   [33m[2m✓[22m[39m Rose Chart [33m 902[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/ScatterChart.stories.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 2531[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 1073[2mms[22m[39m
+   [33m[2m✓[22m[39m Bubble Chart [33m 555[2mms[22m[39m
+   [33m[2m✓[22m[39m Multi Series [33m 903[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/EffectScatterChart.stories.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 2534[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 1065[2mms[22m[39m
+   [33m[2m✓[22m[39m Large Ripple [33m 564[2mms[22m[39m
+   [33m[2m✓[22m[39m Multi Series [33m 904[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/GraphChart.stories.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 2534[2mms[22m[39m
+   [33m[2m✓[22m[39m Force Directed [33m 1075[2mms[22m[39m
+   [33m[2m✓[22m[39m Circular Layout [33m 571[2mms[22m[39m
+   [33m[2m✓[22m[39m With Categories [33m 887[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/InteractiveChart.stories.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 2624[2mms[22m[39m
+   [33m[2m✓[22m[39m With Toolbox [33m 1105[2mms[22m[39m
+   [33m[2m✓[22m[39m With Data Zoom [33m 569[2mms[22m[39m
+   [33m[2m✓[22m[39m Fully Interactive [33m 949[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/LineChart.stories.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 2625[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 1289[2mms[22m[39m
+   [33m[2m✓[22m[39m Multi Series [33m 894[2mms[22m[39m
+   [33m[2m✓[22m[39m Area Chart [33m 441[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/ChartWithComponents.stories.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 2751[2mms[22m[39m
+   [33m[2m✓[22m[39m With Title And Legend [33m 1274[2mms[22m[39m
+   [33m[2m✓[22m[39m With Tooltip [33m 923[2mms[22m[39m
+   [33m[2m✓[22m[39m Fully Decorated [33m 553[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/ComposedChart.stories.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 2790[2mms[22m[39m
+   [33m[2m✓[22m[39m Line And Bar [33m 1270[2mms[22m[39m
+   [33m[2m✓[22m[39m Bar And Line Multi Axis [33m 894[2mms[22m[39m
+   [33m[2m✓[22m[39m Line And Scatter [33m 625[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/BarChart.stories.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 610[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 323[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m10 passed[39m[22m[90m (10)[39m
+[2m      Tests [22m [1m[32m30 passed[39m[22m[90m (30)[39m
+[2m   Start at [22m 18:45:21
+[2m   Duration [22m 9.79s[2m (transform 0ms, setup 22.71s, import 2.54s, tests 24.05s, environment 0ms)[22m

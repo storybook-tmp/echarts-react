@@ -1,0 +1,10 @@
+src/BarChart.stories.tsx(12,19): error TS2698: Spread types may only be created from object types.
+src/BarChart.stories.tsx(24,5): error TS2353: Object literal may only specify known properties, and 'use' does not exist in type 'Partial<{ title: string; component: ChartComponentType<BarSeriesOption | GridOption>; parameters: { layout: string; }; render: (args: never) => Element; }>'.
+src/BarChart.stories.tsx(37,5): error TS2353: Object literal may only specify known properties, and 'use' does not exist in type 'Partial<{ title: string; component: ChartComponentType<BarSeriesOption | GridOption>; parameters: { layout: string; }; render: (args: never) => Element; }>'.
+src/GraphChart.stories.tsx(30,21): error TS2698: Spread types may only be created from object types.
+src/GraphChart.stories.tsx(41,5): error TS2353: Object literal may only specify known properties, and 'use' does not exist in type 'Partial<{ title: string; component: ChartComponentType<GraphSeriesOption$1>; parameters: { layout: string; }; render: (args: never) => Element; }>'.
+src/GraphChart.stories.tsx(63,5): error TS2353: Object literal may only specify known properties, and 'use' does not exist in type 'Partial<{ title: string; component: ChartComponentType<GraphSeriesOption$1>; parameters: { layout: string; }; render: (args: never) => Element; }>'.
+src/LineChart.stories.tsx(12,20): error TS2698: Spread types may only be created from object types.
+src/LineChart.stories.tsx(24,5): error TS2353: Object literal may only specify known properties, and 'use' does not exist in type 'Partial<{ title: string; component: ChartComponentType<GridOption | LineSeriesOption$1>; parameters: { layout: string; }; render: (args: never) => Element; }>'.
+src/LineChart.stories.tsx(42,5): error TS2353: Object literal may only specify known properties, and 'use' does not exist in type 'Partial<{ title: string; component: ChartComponentType<GridOption | LineSeriesOption$1>; parameters: { layout: string; }; render: (args: never) => Element; }>'.
+

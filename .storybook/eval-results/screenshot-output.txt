@@ -1,0 +1,19 @@
+RUN  v4.0.18 /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T09-50-54Z-7f33de2e/project
+
+ ✓ |storybook (chromium)| src/GraphChart.stories.tsx (1 test) 447ms
+   ✓ Dependency Graph  446ms
+ ✓ |storybook (chromium)| src/HeatmapChart.stories.tsx (1 test) 449ms
+   ✓ Weekly Activity  448ms
+ ✓ |storybook (chromium)| src/BarChart.stories.tsx (1 test) 450ms
+   ✓ Regional Revenue  448ms
+ ✓ |storybook (chromium)| src/ScatterChart.stories.tsx (1 test) 448ms
+   ✓ Bubble Dataset  447ms
+ ✓ |storybook (chromium)| src/PieChart.stories.tsx (1 test) 456ms
+   ✓ Traffic Sources  455ms
+ ✓ |storybook (chromium)| src/LineChart.stories.tsx (2 tests) 546ms
+   ✓ Readme Example  448ms
+
+ Test Files  6 passed (6)
+      Tests  7 passed (7)
+   Start at  17:00:52
+   Duration  2.97s (transform 0ms, setup 5.16s, import 357ms, tests 2.80s, environment 0ms)

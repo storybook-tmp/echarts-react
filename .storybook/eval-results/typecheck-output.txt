@@ -1,0 +1,23 @@
+src/BarChart.stories.tsx(2,1): error TS6133: 'React' is declared but its value is never read.
+src/BarChart.stories.tsx(22,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/BarChart.stories.tsx(43,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/DataZoom.stories.tsx(2,1): error TS6133: 'React' is declared but its value is never read.
+src/Legend.stories.tsx(2,1): error TS6133: 'React' is declared but its value is never read.
+src/LineChart.stories.tsx(2,1): error TS6133: 'React' is declared but its value is never read.
+src/LineChart.stories.tsx(22,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/LineChart.stories.tsx(43,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/MarkArea.stories.tsx(2,1): error TS6133: 'React' is declared but its value is never read.
+src/MarkLine.stories.tsx(2,1): error TS6133: 'React' is declared but its value is never read.
+src/PieChart.stories.tsx(2,1): error TS6133: 'React' is declared but its value is never read.
+src/PieChart.stories.tsx(22,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/PieChart.stories.tsx(46,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/Title.stories.tsx(2,1): error TS6133: 'React' is declared but its value is never read.
+src/Title.stories.tsx(4,1): error TS6133: 'CanvasRenderer' is declared but its value is never read.
+src/Tooltip.stories.tsx(2,1): error TS6133: 'React' is declared but its value is never read.
+

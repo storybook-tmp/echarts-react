@@ -1,4 +1,8 @@
 import type { Preview } from '@storybook/react-vite';
+import { CanvasRenderer } from 'echarts/renderers';
+import { echarts } from '../src/shared';
+
+echarts.use([CanvasRenderer]);
 
 const preview: Preview = {
   parameters: {

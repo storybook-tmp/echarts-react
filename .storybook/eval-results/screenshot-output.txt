@@ -1,0 +1,48 @@
+RUN  v4.0.18 /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-02T15-54-42Z-d17e79d2/project
+
+11:01:10 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+ ✓ |storybook (chromium)| src/HeatmapChart.stories.tsx (2 tests) 1095ms
+   ✓ Basic  776ms
+   ✓ Without Labels  318ms
+ ✓ |storybook (chromium)| src/stories/HeaderAI.stories.ts (2 tests) 1086ms
+   ✓ Logged In  768ms
+   ✓ Logged Out  316ms
+ ✓ |storybook (chromium)| src/BarChart.stories.tsx (2 tests) 1244ms
+   ✓ Basic  874ms
+   ✓ Stacked  369ms
+ ✓ |storybook (chromium)| src/ScatterChart.stories.tsx (2 tests) 1234ms
+   ✓ Basic  853ms
+   ✓ Multi Group  380ms
+ ✓ |storybook (chromium)| src/stories/PageAI.stories.ts (2 tests) 1205ms
+   ✓ Default  905ms
+ ✓ |storybook (chromium)| src/PieChart.stories.tsx (2 tests) 1255ms
+   ✓ Basic  872ms
+   ✓ Donut  381ms
+ ✓ |storybook (chromium)| src/GraphChart.stories.tsx (2 tests) 1261ms
+   ✓ Basic  866ms
+   ✓ Circular  394ms
+ ✓ |storybook (chromium)| src/LineChart.stories.tsx (2 tests) 1267ms
+   ✓ Basic  883ms
+   ✓ Multi Series  383ms
+ ✓ |storybook (chromium)| src/stories/ButtonAI.stories.ts (4 tests) 1408ms
+   ✓ Primary  767ms
+   ✓ Secondary  317ms
+
+ Test Files  9 passed (9)
+      Tests  20 passed (20)
+   Start at  23:01:10
+   Duration  7.83s (transform 0ms, setup 18.83s, import 2.33s, tests 11.05s, environment 0ms)
+
+
+stderr | src/ScatterChart.stories.tsx > Multi Group
+[ECharts] Component legend is used but not imported.
+import { LegendComponent } from 'echarts/components';
+echarts.use([LegendComponent]);
+stderr | src/BarChart.stories.tsx > Stacked
+[ECharts] Component legend is used but not imported.
+import { LegendComponent } from 'echarts/components';
+echarts.use([LegendComponent]);
+stderr | src/LineChart.stories.tsx > Multi Series
+[ECharts] Component legend is used but not imported.
+import { LegendComponent } from 'echarts/components';
+echarts.use([LegendComponent]);

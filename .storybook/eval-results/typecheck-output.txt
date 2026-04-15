@@ -1,0 +1,31 @@
+src/BarChart.stories.ts(1,15): error TS6196: 'Meta' is declared but never used.
+src/BarChart.stories.ts(13,3): error TS2322: Type '{ style: { width: string; height: string; }; xAxis: { type: string; data: string[]; }; yAxis: { type: string; }; series: { type: string; data: number[]; }[]; }' is not assignable to type 'never'.
+src/BarChart.stories.ts(27,3): error TS2322: Type '{ style: { width: string; height: string; }; xAxis: { type: string; data: string[]; }; yAxis: { type: string; }; series: { type: string; name: string; data: number[]; }[]; }' is not assignable to type 'never'.
+src/EffectScatterChart.stories.ts(2,15): error TS6196: 'Meta' is declared but never used.
+src/EffectScatterChart.stories.ts(16,3): error TS2322: Type '{ style: { width: string; height: string; }; xAxis: { type: string; }; yAxis: { type: string; }; series: { type: string; symbolSize: number; data: number[][]; }[]; }' is not assignable to type 'never'.
+src/EffectScatterChart.stories.ts(38,14): error TS2322: Type '{ render: () => React.DetailedReactHTMLElement<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => React.DetailedReactHTMLElement<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>; }' but required in type '{ args: never; }'.
+src/EffectScatterChart.stories.ts(42,7): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '{ style: { width: string; height: string; }; xAxis: { type: string; name: string; }; yAxis: { type: string; name: string; }; series: { type: string; symbolSize: number; data: number[][]; }[]; }' is not assignable to parameter of type 'null | undefined'.
+src/HeatmapChart.stories.ts(2,15): error TS6196: 'Meta' is declared but never used.
+src/HeatmapChart.stories.ts(26,14): error TS2322: Type '{ render: () => React.DetailedReactHTMLElement<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => React.DetailedReactHTMLElement<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>; }' but required in type '{ args: never; }'.
+src/HeatmapChart.stories.ts(28,39): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '{ style: { width: string; height: string; }; use: ((registers: { registerPreprocessor: typeof registerPreprocessor; registerProcessor: typeof registerProcessor; ... 22 more ...; registerPainter(painterType: string, PainterCtor: Parameters<(name: string, Ctor: PainterBaseCtor) => void>[1]): void; }) => void)[]; xAxis...' is not assignable to parameter of type 'null | undefined'.
+src/HeatmapChart.stories.ts(39,14): error TS2322: Type '{ render: () => React.DetailedReactHTMLElement<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => React.DetailedReactHTMLElement<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>; }' but required in type '{ args: never; }'.
+src/HeatmapChart.stories.ts(43,7): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '{ style: { width: string; height: string; }; use: (registers: { registerPreprocessor: typeof registerPreprocessor; registerProcessor: typeof registerProcessor; ... 22 more ...; registerPainter(painterType: string, PainterCtor: Parameters<(name: string, Ctor: PainterBaseCtor) => void>[1]): void; }) => void; xAxis: { ...' is not assignable to parameter of type 'null | undefined'.
+src/LineChart.stories.ts(1,15): error TS6196: 'Meta' is declared but never used.
+src/LineChart.stories.ts(13,3): error TS2322: Type '{ style: { width: string; height: string; }; xAxis: { type: string; data: string[]; }; yAxis: { type: string; }; series: { type: string; data: number[]; smooth: true; }[]; }' is not assignable to type 'never'.
+src/LineChart.stories.ts(28,3): error TS2322: Type '{ style: { width: string; height: string; }; xAxis: { type: string; data: string[]; }; yAxis: { type: string; }; series: { type: string; name: string; data: number[]; }[]; }' is not assignable to type 'never'.
+src/PieChart.stories.ts(1,15): error TS6196: 'Meta' is declared but never used.
+src/PieChart.stories.ts(13,3): error TS2322: Type '{ style: { width: string; height: string; }; series: { type: string; data: { value: number; name: string; }[]; }[]; }' is not assignable to type 'never'.
+src/PieChart.stories.ts(30,3): error TS2322: Type '{ style: { width: string; height: string; }; series: { type: string; radius: string[]; data: { value: number; name: string; }[]; }[]; }' is not assignable to type 'never'.
+src/ScatterChart.stories.ts(1,15): error TS6196: 'Meta' is declared but never used.
+src/ScatterChart.stories.ts(13,3): error TS2322: Type '{ style: { width: string; height: string; }; xAxis: { type: string; name: string; }; yAxis: { type: string; name: string; }; series: { type: string; symbolSize: number; data: number[][]; }[]; }' is not assignable to type 'never'.
+src/ScatterChart.stories.ts(39,3): error TS2322: Type '{ style: { width: string; height: string; }; xAxis: { type: string; }; yAxis: { type: string; }; series: { type: string; name: string; symbolSize: number; data: number[][]; }[]; }' is not assignable to type 'never'.
+

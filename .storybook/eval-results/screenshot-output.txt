@@ -1,0 +1,35 @@
+RUN  v4.0.18 /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-02T16-02-37Z-0ee13cfa/project
+
+11:07:49 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+ ✓ |storybook (chromium)| src/Tooltip.stories.tsx (2 tests) 1487ms
+   ✓ Default  1035ms
+   ✓ Custom Formatter  451ms
+ ✓ |storybook (chromium)| src/PieChart.stories.tsx (2 tests) 1487ms
+   ✓ Default  1085ms
+   ✓ Donut  401ms
+ ✓ |storybook (chromium)| src/MarkArea.stories.tsx (2 tests) 1487ms
+   ✓ Default  1085ms
+   ✓ With Label  401ms
+ ✓ |storybook (chromium)| src/DataZoom.stories.tsx (2 tests) 1488ms
+   ✓ Default  1085ms
+   ✓ Vertical Data Zoom  401ms
+ ✓ |storybook (chromium)| src/Title.stories.tsx (2 tests) 1488ms
+   ✓ Default  1076ms
+   ✓ With Subtext  411ms
+ ✓ |storybook (chromium)| src/LineChart.stories.tsx (2 tests) 1499ms
+   ✓ Default  1035ms
+   ✓ Multiple Lines  463ms
+ ✓ |storybook (chromium)| src/Legend.stories.tsx (2 tests) 1517ms
+   ✓ Default  1036ms
+   ✓ Positioned Right  481ms
+ ✓ |storybook (chromium)| src/MarkLine.stories.tsx (2 tests) 1504ms
+   ✓ Default  1022ms
+   ✓ With Multiple Lines  481ms
+ ✓ |storybook (chromium)| src/BarChart.stories.tsx (2 tests) 1506ms
+   ✓ Default  1073ms
+   ✓ Multi Series  431ms
+
+ Test Files  9 passed (9)
+      Tests  18 passed (18)
+   Start at  23:07:49
+   Duration  6.61s (transform 0ms, setup 16.36s, import 3.06s, tests 13.46s, environment 0ms)

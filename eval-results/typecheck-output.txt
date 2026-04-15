@@ -1,0 +1,46 @@
+src/BarChart.stories.tsx(16,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/BarChart.stories.tsx(35,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/BarChartWithDataZoom.stories.tsx(21,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/BarChartWithDataZoom.stories.tsx(45,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/GraphChart.stories.tsx(16,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/GraphChart.stories.tsx(56,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/LineChart.stories.tsx(16,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/LineChart.stories.tsx(36,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/LineChartAdvanced.stories.tsx(16,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/LineChartAdvanced.stories.tsx(57,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/PieChart.stories.tsx(16,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/PieChart.stories.tsx(36,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/stories/Button.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/stories/Button.tsx(3,8): error TS2307: Cannot find module './button.css' or its corresponding type declarations.
+src/stories/Header.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/stories/Header.tsx(4,8): error TS2307: Cannot find module './header.css' or its corresponding type declarations.
+src/stories/Header.tsx(45,14): error TS2375: Type '{ size: "small"; onClick: (() => void) | undefined; label: string; }' is not assignable to type 'ButtonProps' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'onClick' are incompatible.
+    Type '(() => void) | undefined' is not assignable to type '() => void'.
+      Type 'undefined' is not assignable to type '() => void'.
+src/stories/Header.tsx(49,14): error TS2375: Type '{ size: "small"; onClick: (() => void) | undefined; label: string; }' is not assignable to type 'ButtonProps' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'onClick' are incompatible.
+    Type '(() => void) | undefined' is not assignable to type '() => void'.
+      Type 'undefined' is not assignable to type '() => void'.
+src/stories/Header.tsx(50,14): error TS2375: Type '{ primary: true; size: "small"; onClick: (() => void) | undefined; label: string; }' is not assignable to type 'ButtonProps' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'onClick' are incompatible.
+    Type '(() => void) | undefined' is not assignable to type '() => void'.
+      Type 'undefined' is not assignable to type '() => void'.
+src/stories/Page.tsx(4,8): error TS2307: Cannot find module './page.css' or its corresponding type declarations.
+src/stories/Page.tsx(15,8): error TS2375: Type '{ user: User | undefined; onLogin: () => void; onLogout: () => void; onCreateAccount: () => void; }' is not assignable to type 'HeaderProps' with 'exactOptionalPropertyTypes: true'. Consider adding 'undefined' to the types of the target's properties.
+  Types of property 'user' are incompatible.
+    Type 'User | undefined' is not assignable to type 'User'.
+      Type 'undefined' is not assignable to type 'User'.
+

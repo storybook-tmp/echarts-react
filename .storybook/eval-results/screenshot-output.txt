@@ -1,0 +1,25 @@
+[1m[46m RUN [49m[22m [36mv4.0.18 [39m[90m/Users/yannbraga/open-source/storybook-eval/trials/2026-04-13T07-20-53Z-c00b55e6/project[39m
+
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/stories/HeatmapChart.stories.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 617[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 417[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/stories/PieChart.stories.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 618[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 418[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/stories/LineChartComposed.stories.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 616[2mms[22m[39m
+   [33m[2m✓[22m[39m Multi Series With Toolbox [33m 415[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/stories/ScatterChart.stories.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 617[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 417[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/stories/GraphChart.stories.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 616[2mms[22m[39m
+   [33m[2m✓[22m[39m Force [33m 415[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/stories/BarChart.stories.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 619[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 418[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/stories/LineChart.stories.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 615[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 417[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/stories/BarChartComposed.stories.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 618[2mms[22m[39m
+   [33m[2m✓[22m[39m With Legend And Tooltip [33m 417[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/stories/EffectScatterChart.stories.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 618[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 417[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m9 passed[39m[22m[90m (9)[39m
+[2m      Tests [22m [1m[32m18 passed[39m[22m[90m (18)[39m
+[2m   Start at [22m 09:28:16
+[2m   Duration [22m 2.67s[2m (transform 0ms, setup 5.90s, import 1.10s, tests 5.55s, environment 0ms)[22m

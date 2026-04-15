@@ -1,0 +1,22 @@
+src/BarChart.stories.tsx(13,3): error TS2322: Type '{ style: { width: number; height: number; }; xAxis: { type: string; data: string[]; }; yAxis: { type: string; }; series: { type: string; data: number[]; }[]; }' is not assignable to type 'never'.
+src/BarChart.stories.tsx(22,3): error TS2322: Type '{ style: { width: number; height: number; }; xAxis: { type: string; }; yAxis: { type: string; data: string[]; }; series: { type: string; data: number[]; }[]; }' is not assignable to type 'never'.
+src/DataZoom.stories.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/EffectScatterChart.stories.tsx(13,3): error TS2322: Type '{ style: { width: number; height: number; }; xAxis: { type: string; }; yAxis: { type: string; }; series: { type: string; symbolSize: number; data: number[][]; }[]; }' is not assignable to type 'never'.
+src/EffectScatterChart.stories.tsx(36,3): error TS2322: Type '{ style: { width: number; height: number; }; xAxis: { type: string; }; yAxis: { type: string; }; series: { type: string; symbolSize: number; rippleEffect: { brushType: string; scale: number; }; data: number[][]; }[]; }' is not assignable to type 'never'.
+src/GraphChart.stories.tsx(13,3): error TS2322: Type '{ style: { width: number; height: number; }; series: { type: string; layout: string; roam: true; label: { show: true; }; force: { repulsion: number; edgeLength: number; }; data: { name: string; symbolSize: number; }[]; links: { ...; }[]; }[]; }' is not assignable to type 'never'.
+src/GraphChart.stories.tsx(44,3): error TS2322: Type '{ style: { width: number; height: number; }; series: { type: string; layout: string; roam: true; label: { show: true; position: string; }; circular: { rotateLabel: true; }; data: { name: string; symbolSize: number; }[]; links: { ...; }[]; }[]; }' is not assignable to type 'never'.
+src/HeatmapChart.stories.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/HeatmapChart.stories.tsx(27,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/HeatmapChart.stories.tsx(45,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, never, never>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: never; }'.
+src/LineChart.stories.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/LineChart.stories.tsx(10,20): error TS2698: Spread types may only be created from object types.
+src/LineChart.stories.tsx(22,5): error TS2353: Object literal may only specify known properties, and 'style' does not exist in type 'Partial<{ title: string; component: ChartComponentType<GridOption | LineSeriesOption$1>; render: (args: never) => Element; }>'.
+src/LineChart.stories.tsx(31,5): error TS2353: Object literal may only specify known properties, and 'style' does not exist in type 'Partial<{ title: string; component: ChartComponentType<GridOption | LineSeriesOption$1>; render: (args: never) => Element; }>'.
+src/PieChart.stories.tsx(13,3): error TS2322: Type '{ style: { width: number; height: number; }; series: { type: string; data: { value: number; name: string; }[]; }[]; }' is not assignable to type 'never'.
+src/PieChart.stories.tsx(31,3): error TS2322: Type '{ style: { width: number; height: number; }; series: { type: string; radius: string[]; data: { value: number; name: string; }[]; }[]; }' is not assignable to type 'never'.
+src/ScatterChart.stories.tsx(13,3): error TS2322: Type '{ style: { width: number; height: number; }; xAxis: {}; yAxis: {}; series: { type: string; data: number[][]; }[]; }' is not assignable to type 'never'.
+src/ScatterChart.stories.tsx(39,3): error TS2322: Type '{ style: { width: number; height: number; }; xAxis: {}; yAxis: {}; series: { type: string; data: number[][]; }[]; }' is not assignable to type 'never'.
+src/Tooltip.stories.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+

@@ -34,7 +34,8 @@
     "lint": "tsc --noEmit",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "chromatic --exit-zero-on-changes --only-changed"
+    "chromatic": "chromatic --exit-zero-on-changes --only-changed",
+    "vitest:storybook": "vitest run --project=storybook"
   },
   "devDependencies": {
     "@types/node": "^25.3.0",

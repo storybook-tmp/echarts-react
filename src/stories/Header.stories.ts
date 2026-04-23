@@ -1,16 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
-
-import { fn } from 'storybook/test';
+import { expect, fn } from 'storybook/test';
 
 import { Header } from './Header';
 
 const meta = {
-  title: 'Example/Header',
   component: Header,
-  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],
   parameters: {
-    // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout
     layout: 'fullscreen',
   },
   args: {
@@ -29,6 +25,24 @@ export const LoggedIn: Story = {
       name: 'Jane Doe',
     },
   },
+  play: async ({ canvas, userEvent }) => {
+    await expect(canvas.getByText(/welcome,/i)).toBeVisible();
+    await expect(canvas.getByText('Jane Doe')).toBeVisible();
+
+    const logoutButton = canvas.getByRole('button', { name: 'Log out' });
+    await expect(logoutButton).toBeVisible();
+    await userEvent.click(logoutButton);
+  },
 };
 
-export const LoggedOut: Story = {};
+export const LoggedOut: Story = {
+  play: async ({ canvas, userEvent }) => {
+    const loginButton = canvas.getByRole('button', { name: 'Log in' });
+    const createAccountButton = canvas.getByRole('button', { name: 'Sign up' });
+
+    await expect(canvas.getByRole('heading', { name: 'Acme' })).toBeVisible();
+    await expect(loginButton).toBeVisible();
+    await expect(createAccountButton).toBeVisible();
+    await userEvent.click(createAccountButton);
+  },
+};

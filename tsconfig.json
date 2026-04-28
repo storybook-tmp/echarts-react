@@ -15,7 +15,8 @@
     "skipLibCheck": true,
     "rootDir": ".",
     "paths": {
-      "@fanciers/echarts-react": ["./src/index.ts"]
+      "@fanciers/echarts-react": ["./src/index.ts"],
+      "#.storybook/*": ["./.storybook/*"]
     }
   },
   "exclude": ["dist"]

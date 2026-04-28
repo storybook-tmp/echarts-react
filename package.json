@@ -12,6 +12,9 @@
   ],
   "license": "MIT",
   "type": "module",
+  "imports": {
+    "#.storybook/*": "./.storybook/*"
+  },
   "sideEffects": false,
   "files": [
     "dist"

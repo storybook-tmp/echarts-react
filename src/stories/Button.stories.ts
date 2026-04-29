@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
-import { fn } from 'storybook/test';
+import { expect, fn } from 'storybook/test';
 
 import { Button } from './Button';
 
@@ -50,5 +50,18 @@ export const Small: Story = {
   args: {
     size: 'small',
     label: 'Button',
+  },
+};
+
+export const CssCheck: Story = {
+  tags: ['ai-generated'],
+  args: {
+    primary: true,
+    label: 'Submit',
+  },
+  play: async ({ canvas }) => {
+    const button = canvas.getByRole('button', { name: /submit/i });
+    // .storybook-button--primary uses background-color: #555ab9
+    await expect(getComputedStyle(button).backgroundColor).toBe('rgb(85, 90, 185)');
   },
 };

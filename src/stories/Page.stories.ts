@@ -1,14 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
-
-import { expect, userEvent, within } from 'storybook/test';
+import { expect } from 'storybook/test';
 
 import { Page } from './Page';
 
 const meta = {
-  title: 'Example/Page',
   component: Page,
   parameters: {
-    // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout
     layout: 'fullscreen',
   },
 } satisfies Meta<typeof Page>;
@@ -16,18 +13,23 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const LoggedOut: Story = {};
+export const LoggedOut: Story = {
+  play: async ({ canvas }) => {
+    await expect(canvas.getByRole('heading', { name: 'Pages in Storybook' })).toBeVisible();
+    await expect(canvas.getByRole('button', { name: 'Log in' })).toBeVisible();
+    await expect(canvas.queryByRole('button', { name: 'Log out' })).not.toBeInTheDocument();
+  },
+};
 
-// More on component testing: https://storybook.js.org/docs/writing-tests/interaction-testing
 export const LoggedIn: Story = {
-  play: async ({ canvasElement }) => {
-    const canvas = within(canvasElement);
+  play: async ({ canvas, userEvent }) => {
     const loginButton = canvas.getByRole('button', { name: /Log in/i });
-    await expect(loginButton).toBeInTheDocument();
+
+    await expect(loginButton).toBeVisible();
     await userEvent.click(loginButton);
-    await expect(loginButton).not.toBeInTheDocument();
 
     const logoutButton = canvas.getByRole('button', { name: /Log out/i });
-    await expect(logoutButton).toBeInTheDocument();
+    await expect(canvas.getByText(/welcome,/i)).toBeVisible();
+    await expect(logoutButton).toBeVisible();
   },
 };
